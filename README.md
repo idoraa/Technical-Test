@@ -44,3 +44,29 @@ Create a web-based attendance system using Laravel, Tailwind CSS, Livewire, and 
 **Note:** *You are free to make additional decisions not explicitly mentioned here, as long as they align with best practices in Laravel development.*
 
 **Important Note**: *Laravel Version - v8.6.12, PHP Version - 7.4*
+
+##### My Solution:
+I have covered below points:
+
+1. Authentication:
+   - Implement user authentication using Laravel's built-in authentication system.
+   - Users should have roles (e.g., admin and regular user).
+2. Database Design:
+   - Create a database schema for users and attendance records.
+3. Dashboard:
+   - Create a dashboard accessible after login.
+   - Display the user's name and role on the dashboard.
+6. Design and Styling:
+   - Use Tailwind CSS for styling the application.
+8. Role-based Access:
+   - Implement role-based access control.
+
+I have created two roles Admin and User.
+A default user is created with credentials, email: admin@yopmail.com Pass: password
+
+##### Project Setup:
+Create database and update database credentials in .env file
+Run the command "php artisan migrate:fresh --seed" for initial database setup.
+
+ 
+
